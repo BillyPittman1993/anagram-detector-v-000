@@ -13,7 +13,7 @@ class Anagram
     @word
   end
   
-  def match(word)
+  def self.match(word)
     
   end
   
