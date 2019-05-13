@@ -3,7 +3,7 @@ class Anagram
   
   attr_accessor :word
   
-  @@anagrams = []
+  @@anagrams = ["enlists google inlets banana"]
   @@words = []
   
   def initialize(word)
