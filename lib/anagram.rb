@@ -1,17 +1,20 @@
 # Your code goes here!
 class Anagram 
   
-  attr_accessor :anagrams
+  attr_accessor :word
   
   @@anagrams = []
   
-  def initialize(anagrams)
-    self.anagrams = anagrams
+  def initialize(word)
+    @word = word 
   end
   
-  def match 
-    results = self.anagrams.%w(enlists google inlets banana)
-    results.flatten.uniq
+  def word 
+    @word
+  end
+  
+  def match(word)
+    
   end
   
 end 
