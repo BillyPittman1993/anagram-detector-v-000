@@ -10,7 +10,8 @@ class Anagram
   end
   
   def match 
-    results = self.anagrams
+    results = self.anagrams.%w(enlists google inlets banana)
+    results.flatten.uniq
   end
   
 end 
