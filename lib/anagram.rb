@@ -5,8 +5,8 @@ class Anagram
   
   @@anagrams = []
   
-  def initialize(word)
-    
+  def initialize(anagrams)
+    self.anagrams = anagrams
   end
   
   def match 
