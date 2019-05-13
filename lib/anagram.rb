@@ -16,7 +16,7 @@ class Anagram
   end
   
   def self.match(word)
-    @@anagrams.each do |word| 
+    
   end
   
 end 
