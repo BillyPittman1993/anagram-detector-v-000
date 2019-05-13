@@ -10,7 +10,7 @@ class Anagram
   end
   
   def match 
-    
+    results = self.anagrams
   end
   
 end 
